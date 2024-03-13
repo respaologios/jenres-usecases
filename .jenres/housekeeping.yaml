@@ -1,9 +1,9 @@
 duties:
   bunnies:
     cron: "* * * * *"
-    prompt: in file {file_path} add an initial messagge which describes the content of the file.
+    prompt: in the file {file_path} add an initial messagge which describes the content of the file.
 
   logging:
     cron: "* * * * *"
     prompt: |
-      in file {file_path} add logging lines of appropriated level where needed.
+      in the file {file_path} add logging lines of appropriated level where needed.
