@@ -26,7 +26,7 @@ class DataManager:
                 url=f"{SHEETY_PRICES_ENDPOINT}/{city['id']}",
                 json=new_data
             )
-            print(response.text)
+            pprint(response.text)
 
     def get_customer_emails(self):
         customers_endpoint = SHEETY_USERS_ENDPOINT
