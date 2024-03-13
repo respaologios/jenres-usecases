@@ -1,3 +1,8 @@
+"""
+This module contains the DataManager class which handles all interactions with the
+remote data source to manage destination and customer data for the Flight Club project.
+"""
+
 from pprint import pprint
 import requests
 
