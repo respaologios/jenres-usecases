@@ -1,0 +1,18 @@
+# Requirements for Flight Club Project
+
+## Programming Language
+- Python 3.8 or higher
+
+## Libraries
+- Flask (for web application framework)
+- SQLAlchemy (for database interactions)
+- Marshmallow (for object serialization/deserialization)
+- Pytest (for testing)
+- Requests (for API calls)
+
+## Database
+- PostgreSQL
+
+## Tools
+- Docker (for containerization)
+- Git (for version control)
