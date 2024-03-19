@@ -1,9 +1,15 @@
 duties:
   bunnies:
     cron: "* * * * *"
-    prompt: in calculations.py add an initial messagge which describes the content of the file.
+    prompt: nel file {file_path} aggiungi un commento iniziale che parla di conigli
 
   logging:
     cron: "* * * * *"
     prompt: |
-      in the file {file_path} add logging lines of appropriated level where needed.
+      nel file {file_path} aggiungi righe di logging di livello appropriato dove utile.
+      Se mancano, ricordati di aggiungere le righe per creare il logger:
+      import logging
+      logger = logging.getLogger(__name__)
+    files:
+      include:
+        - "**/*.py"
