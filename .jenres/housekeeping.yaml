@@ -1,7 +1,7 @@
 duties:
   bunnies:
     cron: "* * * * *"
-    prompt: in the file {file_path} add an initial messagge which describes the content of the file.
+    prompt: in the folder usecase_prj add an initial messagge which describes the content of the file.
 
   logging:
     cron: "* * * * *"
