@@ -1,7 +1,7 @@
 duties:
   bunnies:
     cron: "* * * * *"
-    prompt: in calculation.py add an initial messagge which describes the content of the file.
+    prompt: in calculations.py add an initial messagge which describes the content of the file.
 
   logging:
     cron: "* * * * *"
