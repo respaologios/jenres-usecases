@@ -1,5 +1,6 @@
 """
 This module contains basic mathematical operations used for calculations.
+It also includes a whimsical example related to rabbits.
 
 Functions:
 - add(a, b): Returns the sum of a and b.
